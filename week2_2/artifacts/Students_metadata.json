@@ -1,0 +1,140 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_teacher",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "teacher",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "student",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "point",
+						"type": "uint256"
+					}
+				],
+				"name": "updateRecord",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "students",
+						"type": "address"
+					}
+				],
+				"name": "getScore",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owenr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "students",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "score",
+						"type": "uint256"
+					}
+				],
+				"name": "setScore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week2_2/Students.sol": "Students"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week2_2/Iscore .sol": {
+			"keccak256": "0xe8a648375c94ef7b1ffb136fa3d1695efabc1a8dc6488ff4ec1664eda8f77397",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://dedaee8e26a1ebf9f7686275fca9249cea8506dfa724b534adf25a2515e1919a",
+				"dweb:/ipfs/QmXKPDVgZAeXQoCCE7c7Frr17yygjQqtzdeRNqZQ7bQF7u"
+			]
+		},
+		"week2_2/Students.sol": {
+			"keccak256": "0xa335f4e0023ac2ef6d12e268adf8be612a73259206011c8f3b25832a88d33358",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://cd78ecbd42387f39736f7e4852503c80a93580b1d71fdd016bb9baca76b4b164",
+				"dweb:/ipfs/QmSKFNUFCQt6QpGRAwMw9WwDmUNS5LXPs36uT7wGn6QcTi"
+			]
+		}
+	},
+	"version": 1
+}

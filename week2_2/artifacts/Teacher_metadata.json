@@ -1,0 +1,161 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_score",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "student",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "point",
+						"type": "uint256"
+					}
+				],
+				"name": "scoreErr",
+				"type": "error"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "CatchEvent",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "SuccessEvent",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "students",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "score",
+						"type": "uint256"
+					}
+				],
+				"name": "execute",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "students",
+						"type": "address"
+					}
+				],
+				"name": "getScore",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "students",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "score",
+						"type": "uint256"
+					}
+				],
+				"name": "setScore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "studentScore",
+				"outputs": [
+					{
+						"internalType": "contract Iscore",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week2_2/Teacher.sol": "Teacher"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week2_2/Iscore .sol": {
+			"keccak256": "0xe8a648375c94ef7b1ffb136fa3d1695efabc1a8dc6488ff4ec1664eda8f77397",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://dedaee8e26a1ebf9f7686275fca9249cea8506dfa724b534adf25a2515e1919a",
+				"dweb:/ipfs/QmXKPDVgZAeXQoCCE7c7Frr17yygjQqtzdeRNqZQ7bQF7u"
+			]
+		},
+		"week2_2/Teacher.sol": {
+			"keccak256": "0x73d64cd95f5bfed698e666ad03772324c565ae1f71770c399186dfed1f77d6ad",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2fa6b2a9079837df534a509504aa3467b27a2a8742154c6c1979e179e7d965b2",
+				"dweb:/ipfs/QmcNU8m9wvSUtDrvAkofxzADAiA2xiQxxqGLVHn4HSSncw"
+			]
+		}
+	},
+	"version": 1
+}
